@@ -33,7 +33,7 @@ public class FriendTagsAddon extends LabyModAddon {
     protected void fillSettings(List<SettingsElement> settings) {
         settings.add(new BooleanElement("Enabled", this, new ControlElement.IconData(Material.LEVER)
                 , "enabled", this.enabled));
-        settings.add(new StringElement("Tag format", this, new ControlElement.IconData("")
+        settings.add(new StringElement("Tag format", this, new ControlElement.IconData("labymod/addons/friendtags/tagformat.png")
                 , "friendformat", this.friendFormat));
     }
 
