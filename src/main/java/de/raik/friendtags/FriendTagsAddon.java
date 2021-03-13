@@ -18,7 +18,7 @@ public class FriendTagsAddon extends LabyModAddon {
 
     @Override
     public void onEnable() {
-
+        this.api.getEventService().registerListener(new NameTagRenderer(this));
     }
 
     @Override
